@@ -1,1 +1,31 @@
-Fuck the police coming straight from the underground
+Git -> Sistema de source code distribuído que cria um repositório para guardar source code na sua máquina
+e esse mesmo se relaciona com um principal no servidor.
+
+Comandos: 
+
+Git init -> Abre um repositório git na pasta
+
+Git status -> Verifica o status da solução e quais arquivos estão para commit ou untracked
+
+Git add -> Adiciona um arquivo untracked para ser feito commit
+
+Git add . -> Adiciona todos os arquivos no diretório atual
+Git add -A -> Adiciona todos os arquivos untracked da solução
+
+Git commit -> Faz o commit dos arquivos para o seu repositório, 
+necessário comolcar uma mensagem com o comando -m
+
+Git log -> Mostra o log de arquivos no source code, com um SHA único representando o commit, 
+com autor, arquivos com mensagens e datas dos commits
+
+Git log --oneline -> Mostra o log de arquivos em uma linha resumida
+
+Git reset HEAD~1 -> Undo no último commit (O número representa quantos commits a partir do main vão ser 
+resetados)
+
+Git revert -> Reverte o commit abrindo o VIM
+
+
+
+
+
