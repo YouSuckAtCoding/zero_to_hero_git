@@ -15,6 +15,8 @@ Git add -A -> Adiciona todos os arquivos untracked da solução
 Git commit -> Faz o commit dos arquivos para o seu repositório, 
 necessário comolcar uma mensagem com o comando -m
 
+Git commit --amend --no-edit -> Juntao commit atual com o ultimo commit fazendo um commit só
+
 Git log -> Mostra o log de arquivos no source code, com um SHA único representando o commit, 
 com autor, arquivos com mensagens e datas dos commits
 
@@ -24,6 +26,27 @@ Git reset HEAD~1 -> Undo no último commit (O número representa quantos commits
 resetados)
 
 Git revert -> Reverte o commit abrindo o VIM
+
+Git stash -> Salva o commit atual em uma pasta separada e permite alterações sem afetar o branch
+principal
+
+Git stash list -> Lista de commits / alterações salvas no stack do stash
+
+Git stash pop -> Volta o último commit / alteração para a branch principal
+
+Git clean -> Remove arquivos untracked da solução com paramentros (-i, -n, -f, -fd)
+
+Git branch -> Cria um branch
+
+Git checkout -b -> Cria um branch com o nome escolhido após o parametro
+
+Git checkout -> Alterna entre branches
+
+
+
+Git merge -> Junta o branch selecionado com o branch atual
+
+
 
 
 
