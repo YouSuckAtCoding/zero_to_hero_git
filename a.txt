@@ -38,11 +38,13 @@ Git clean -> Remove arquivos untracked da solução com paramentros (-i, -n, -f,
 
 Git branch -> Cria um branch
 
+Git branch --list -> Lista todos os branches
+
+Git branch -D -> Deleta um branch
+
 Git checkout -b -> Cria um branch com o nome escolhido após o parametro
 
 Git checkout -> Alterna entre branches
-
-
 
 Git merge -> Junta o branch selecionado com o branch atual
 
